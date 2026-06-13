@@ -1,0 +1,971 @@
+{
+  "Knight": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Archers": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Arrows": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Fireball": {
+    "elixir": 4,
+    "type": "spell",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Zap": {
+    "elixir": 2,
+    "type": "spell",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Giant": {
+    "elixir": 5,
+    "type": "win_condition",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Mini P.E.K.K.A": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Musketeer": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Valkyrie": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Skeleton Army": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Baby Dragon": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Wizard": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Inferno Tower": {
+    "elixir": 5,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Goblin Barrel": {
+    "elixir": 3,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Tower"
+  },
+
+  "Hog Rider": {
+    "elixir": 4,
+    "type": "win_condition",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Bomber": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Spear Goblins": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Goblins": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Minions": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Minion Horde": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Cannon": {
+    "elixir": 3,
+    "type": "building",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Tesla": {
+    "elixir": 4,
+    "type": "building",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Mortar": {
+    "elixir": 4,
+    "type": "win_condition",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": true,
+    "target": "Buildings"
+  },
+
+  "X-Bow": {
+    "elixir": 6,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Rocket": {
+    "elixir": 6,
+    "type": "spell",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Lightning": {
+    "elixir": 6,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Poison": {
+    "elixir": 4,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Freeze": {
+    "elixir": 4,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Mirror": {
+    "elixir": 1,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Special"
+  },
+
+  "Prince": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Dark Prince": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "P.E.K.K.A": {
+    "elixir": 7,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Witch": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Balloon": {
+    "elixir": 5,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Buildings"
+  },
+
+  "Golem": {
+    "elixir": 8,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Barbarians": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Elite Barbarians": {
+    "elixir": 6,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Battle Ram": {
+    "elixir": 4,
+    "type": "win_condition",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Goblin Hut": {
+    "elixir": 5,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Spawner"
+  },
+
+  "Barbarian Hut": {
+    "elixir": 6,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Spawner"
+  },
+  "Tombstone": {
+    "elixir": 3,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Spawner"
+  },
+
+  "Furnace": {
+    "elixir": 4,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": true,
+    "target": "Spawner"
+  },
+
+  "Mega Minion": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Three Musketeers": {
+    "elixir": 9,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Ice Wizard": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Princess": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Miner": {
+    "elixir": 3,
+    "type": "win_condition",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": false,
+    "target": "Anywhere"
+  },
+
+  "Lava Hound": {
+    "elixir": 7,
+    "type": "win_condition",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Sparky": {
+    "elixir": 6,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "The Log": {
+    "elixir": 2,
+    "type": "spell",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Bandit": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Night Witch": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Magic Archer": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Royal Ghost": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Ram Rider": {
+    "elixir": 5,
+    "type": "win_condition",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Fisherman": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Mother Witch": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Electro Wizard": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Skeleton Dragons": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Electro Spirit": {
+    "elixir": 1,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Fire Spirit": {
+    "elixir": 1,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Ice Spirit": {
+    "elixir": 1,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Heal Spirit": {
+    "elixir": 1,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Royal Hogs": {
+    "elixir": 5,
+    "type": "win_condition",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Flying Machine": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Hunter": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Cannon Cart": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Goblin Giant": {
+    "elixir": 6,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Wall Breakers": {
+    "elixir": 2,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Buildings"
+  },
+
+  "Rascals": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Earthquake": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Barbarian Barrel": {
+    "elixir": 2,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Royal Recruits": {
+    "elixir": 7,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Zappies": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Goblin Cage": {
+    "elixir": 4,
+    "type": "building",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Elixir Golem": {
+    "elixir": 3,
+    "type": "win_condition",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Battle Healer": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Electro Dragon": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Firecracker": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Royal Delivery": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": true,
+    "target": "Area"
+  },
+  "Electro Giant": {
+    "elixir": 7,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Buildings"
+  },
+
+  "Goblin Drill": {
+    "elixir": 4,
+    "type": "win_condition",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Tower"
+  },
+
+  "Golden Knight": {
+    "elixir": 4,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Skeleton King": {
+    "elixir": 4,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Archer Queen": {
+    "elixir": 5,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Mighty Miner": {
+    "elixir": 4,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Monk": {
+    "elixir": 5,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Phoenix": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Skeletons": {
+    "elixir": 1,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Bats": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Giant Snowball": {
+    "elixir": 2,
+    "type": "spell",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Clone": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Area"
+  },
+
+  "Tornado": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Area"
+  },
+
+  "Guards": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Bowler": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Executioner": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Epic",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Royal Giant": {
+    "elixir": 6,
+    "type": "win_condition",
+    "rarity": "Common",
+    "air_defense": false,
+    "splash": false,
+    "target": "Buildings"
+  },
+
+  "Ice Golem": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Dart Goblin": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Goblin Gang": {
+    "elixir": 3,
+    "type": "troop",
+    "rarity": "Common",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Little Prince": {
+    "elixir": 3,
+    "type": "champion",
+    "rarity": "Champion",
+    "air_defense": true,
+    "splash": false,
+    "target": "Air & Ground"
+  },
+
+  "Goblin Machine": {
+    "elixir": 5,
+    "type": "troop",
+    "rarity": "Legendary",
+    "air_defense": true,
+    "splash": true,
+    "target": "Air & Ground"
+  },
+
+  "Goblin Demolisher": {
+    "elixir": 4,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": true,
+    "target": "Ground"
+  },
+
+  "Suspicious Bush": {
+    "elixir": 2,
+    "type": "troop",
+    "rarity": "Rare",
+    "air_defense": false,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Void": {
+    "elixir": 3,
+    "type": "spell",
+    "rarity": "Epic",
+    "air_defense": false,
+    "splash": false,
+    "target": "Area"
+  },
+
+  "Cannoneer": {
+    "elixir": 0,
+    "type": "tower_troop",
+    "rarity": "Tower Troop",
+    "air_defense": true,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Dagger Duchess": {
+    "elixir": 0,
+    "type": "tower_troop",
+    "rarity": "Tower Troop",
+    "air_defense": true,
+    "splash": false,
+    "target": "Ground"
+  },
+
+  "Royal Chef": {
+    "elixir": 0,
+    "type": "tower_troop",
+    "rarity": "Tower Troop",
+    "air_defense": true,
+    "splash": false,
+    "target": "Ground"
+  }
+}
