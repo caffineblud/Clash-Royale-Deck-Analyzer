@@ -1,6 +1,6 @@
 import json
 from collections import Counter
-
+from archetypes import detect_archetype
 # -------------------------
 # Load Cards Data
 # -------------------------
@@ -141,55 +141,6 @@ def get_card_statistics(deck):
 
     return stats
 
-
-# -------------------------
-# Archetype Detection
-# -------------------------
-
-def detect_archetype(deck):
-
-    deck = set(deck)
-
-    if {
-        "Hog Rider",
-        "Skeletons",
-        "Ice Spirit"
-    }.issubset(deck):
-
-        return "Hog Cycle"
-
-    if {
-        "Goblin Barrel",
-        "Princess"
-    }.issubset(deck):
-
-        return "Log Bait"
-
-    if {
-        "Lava Hound",
-        "Balloon"
-    }.issubset(deck):
-
-        return "LavaLoon"
-
-    if {
-        "Graveyard",
-        "Baby Dragon"
-    }.issubset(deck):
-
-        return "Splashyard"
-
-    if {
-        "P.E.K.K.A",
-        "Bandit"
-    }.issubset(deck):
-
-        return "Bridge Spam"
-
-    if "Golem" in deck:
-        return "Beatdown"
-
-    return "Unknown"
 # -------------------------
 # Synergy System
 # -------------------------
