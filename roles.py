@@ -1,4 +1,4 @@
-from logic import cards_data
+from data_loader import cards_data
 
 ROLE_RULES = {
     "Win Condition": lambda c: cards_data[c]["type"] == "win_condition",

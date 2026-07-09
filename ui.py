@@ -6,11 +6,12 @@ from logic import *
 from deck_storage import save_deck, load_saved_decks
 from tkinter import filedialog
 from roles import analyze_roles
+from data_loader import cards_data
 class DeckAnalyzerUI:
 
     def __init__(self, root):
         self.root = root
-        self.cards = sorted(load_cards().keys())
+        self.cards = sorted(cards_data.keys())
 
         title = ctk.CTkLabel(
             root,
@@ -128,7 +129,10 @@ Counters:
 {chr(10).join(counters) if counters else 'None'}
 
 Recommendations:
-{chr(10).join(recs) if recs else 'None'}
+{chr(10).join(
+    f"• {card}\n  Reason: {reason}"
+    for card, reason in recs
+) if recs else "None"}
 Deck Roles:
 {chr(10).join(
     f"{'✓' if present else '✗'} {role}"
