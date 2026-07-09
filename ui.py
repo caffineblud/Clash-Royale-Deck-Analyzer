@@ -5,7 +5,7 @@ from pdf_export import export_pdf as export_to_pdf
 from logic import *
 from deck_storage import save_deck, load_saved_decks
 from tkinter import filedialog
-
+from roles import analyze_roles
 class DeckAnalyzerUI:
 
     def __init__(self, root):
@@ -106,7 +106,7 @@ class DeckAnalyzerUI:
             counters = analyze_counters(deck)
             recs = recommend_cards(deck)
             ratings = advanced_rating(deck)
-
+            roles = analyze_roles(deck)
             report = f"""
 Deck: {', '.join(deck)}
 
@@ -129,6 +129,11 @@ Counters:
 
 Recommendations:
 {chr(10).join(recs) if recs else 'None'}
+Deck Roles:
+{chr(10).join(
+    f"{'✓' if present else '✗'} {role}"
+    for role, present in roles.items()
+)}
 
 Stats:
 Troops: {stats['troops']}
