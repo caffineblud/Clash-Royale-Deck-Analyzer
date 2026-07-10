@@ -332,8 +332,45 @@ def advanced_rating(deck):
         "Synergy": synergy,
         "Overall": overall
     }
+    
+#--------------------------
+#deck health score
+#--------------------------
 
+def deck_health_score(deck):
+    """
+    Returns a detailed deck health breakdown.
+    """
 
+    air = sum(cards_data[c]["air_defense"] for c in deck)
+    splash = sum(cards_data[c]["splash"] for c in deck)
+    spells = sum(cards_data[c]["type"] == "spell" for c in deck)
+    avg = calculate_average_elixir(deck)
+
+    synergy_score, _ = calculate_synergy(deck)
+
+    offense = min(100, 50 + splash * 5)
+
+    defense = min(100, 50 + air * 6)
+
+    cycle = max(30, 100 - int(avg * 15))
+
+    spell_support = min(100, spells * 50)
+
+    health = {
+        "Offense": offense,
+        "Defense": defense,
+        "Cycle": cycle,
+        "Air Defense": min(100, air * 15),
+        "Spell Support": spell_support,
+        "Synergy": synergy_score,
+    }
+
+    health["Overall"] = round(
+        sum(health.values()) / len(health)
+    )
+
+    return health
 # -------------------------
 # Deck Comparison
 # -------------------------

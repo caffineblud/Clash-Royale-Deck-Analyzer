@@ -107,6 +107,7 @@ class DeckAnalyzerUI:
             counters = analyze_counters(deck)
             recs = recommend_cards(deck)
             ratings = advanced_rating(deck)
+            health = deck_health_score(deck)
             roles = analyze_roles(deck)
             report = f"""
 Deck: {', '.join(deck)}
@@ -154,6 +155,18 @@ Cycle: {ratings['Cycle']}
 Synergy: {ratings['Synergy']}
 
 Overall: {ratings['Overall']}/100
+
+========================================
+
+Deck Health:
+Offense: {health['Offense']}/100
+Defense: {health['Defense']}/100
+Cycle: {health['Cycle']}/100
+Air Defense: {health['Air Defense']}/100
+Spell Support: {health['Spell Support']}/100
+Synergy: {health['Synergy']}/100
+
+Overall Health: {health['Overall']}/100
 """
             self.result_box.delete("1.0", "end")
             self.result_box.insert("end", report)
