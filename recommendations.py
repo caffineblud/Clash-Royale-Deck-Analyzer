@@ -1,5 +1,47 @@
 from data_loader import cards_data
+REPLACEMENTS = {
 
+    "Wizard": (
+        "Musketeer",
+        [
+            "Lower average elixir",
+            "Reliable air defense",
+            "Improves cycle"
+        ]
+    ),
+
+    "Goblin Hut": (
+        "Tesla",
+        [
+            "Stronger defensive building",
+            "Better against tanks"
+        ]
+    ),
+
+    "Minion Horde": (
+        "Phoenix",
+        [
+            "More reliable",
+            "Harder to counter"
+        ]
+    ),
+
+    "Barbarians": (
+        "Guards",
+        [
+            "Cheaper",
+            "Better defensive value"
+        ]
+    ),
+
+    "Three Musketeers": (
+        "Musketeer",
+        [
+            "Lower elixir cost",
+            "Much faster cycle"
+        ]
+    )
+}
 def recommend_cards(deck):
 
     recommendations = []
@@ -44,6 +86,17 @@ def recommend_cards(deck):
             ("Replace an expensive card with Skeletons",
              "Lower average elixir for a faster cycle.")
         )
+    for card in deck:
 
+        if card in REPLACEMENTS:
+
+            replacement, reasons = REPLACEMENTS[card]
+
+            recommendations.append(
+                (
+                    f"Replace {card} → {replacement}",
+                    ", ".join(reasons)
+                )
+        )
     return recommendations
     print(recommendations)
